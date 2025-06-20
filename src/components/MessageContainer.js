@@ -1,6 +1,5 @@
 const MessageContainer = ({messages}) =>
     {
-        console.log("cu ",messages[0])
         return <div>
             {
                 messages.map((msg,index)=> (

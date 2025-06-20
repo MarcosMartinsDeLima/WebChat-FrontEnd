@@ -4,7 +4,6 @@ import SendMessageForm from "./sendMessageForm";
 
 
 const ChatRoom = ({messages,chat,sendMessage})=>{
-    console.log("krl",messages[0])
     return (
         <div>
             <Row className="px-5 py-5">
